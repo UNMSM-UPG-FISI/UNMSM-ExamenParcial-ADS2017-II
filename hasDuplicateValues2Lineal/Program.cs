@@ -13,7 +13,7 @@ namespace hasDuplicateValues2Lineal
             var result = hasDuplicateValues(new int[] { 1, 2, 3 });
             Console.WriteLine("result " + result);
 
-            result = hasDuplicateValuesLineal(new int[] { 1, 2, 3});
+            result = hasDuplicateValuesLineal(new int[] { 1, 2, 3 });
             Console.WriteLine("result Lineal " + result);
 
             Console.ReadLine();
@@ -46,7 +46,8 @@ namespace hasDuplicateValues2Lineal
             foreach (var number in numbers.Distinct())
             {
                 steps++;
-                if (numbers.Any(item => item.Equals(number))){
+                if (numbers.Count(item => item.Equals(number)) > 1)
+                {
                     return true;
                 }
             }
