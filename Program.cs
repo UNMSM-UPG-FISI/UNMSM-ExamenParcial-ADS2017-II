@@ -74,7 +74,7 @@ namespace UNMSM_ExamenParcial_ADS2017_II
 
         static string ReturnEarlyCleanCode(int edad)
         {            
-            if (edad < 3) return Etapa.Niñez;
+            if (edad < 3) return Etapa.Niñez; 
             if (edad > 3 && edad <= 6) return Etapa.NiñezTemprana;
             if (edad > 6 && edad <= 12) return Etapa.NiñezIntermedia;            
             return Etapa.NoNiño;
