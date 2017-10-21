@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UNMSM-ExamenParcial-ADS2017-II", "UNMSM-ExamenParcial-ADS2017-II.csproj", "{26AA1545-77DF-44EB-921E-2149C1F28FBD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SingleResponsibilityPrinciple", "c:\users\post-grado\documents\visual studio 2012\Projects\SingleResponsibilityPrinciple\SingleResponsibilityPrinciple.csproj", "{02E1B355-DD72-4E3B-8717-AC7553EFE52D}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "hasDuplicateValues2Lineal", "hasDuplicateValues2Lineal\hasDuplicateValues2Lineal.csproj", "{31919BB9-8360-44A8-B41F-893C2C188D17}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SingleResponsibilityPrinciple", "SingleResponsibilityPrinciple\SingleResponsibilityPrinciple.csproj", "{74A0A4ED-03E2-44DF-8F00-090B8776956A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Abstract", "Abstract\Abstract.csproj", "{87324F4F-6902-4D8D-BAE7-598A0C53EAEF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,14 +19,18 @@ Global
 		{26AA1545-77DF-44EB-921E-2149C1F28FBD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{26AA1545-77DF-44EB-921E-2149C1F28FBD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{26AA1545-77DF-44EB-921E-2149C1F28FBD}.Release|Any CPU.Build.0 = Release|Any CPU
-		{02E1B355-DD72-4E3B-8717-AC7553EFE52D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{02E1B355-DD72-4E3B-8717-AC7553EFE52D}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{02E1B355-DD72-4E3B-8717-AC7553EFE52D}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{02E1B355-DD72-4E3B-8717-AC7553EFE52D}.Release|Any CPU.Build.0 = Release|Any CPU
 		{31919BB9-8360-44A8-B41F-893C2C188D17}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{31919BB9-8360-44A8-B41F-893C2C188D17}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{31919BB9-8360-44A8-B41F-893C2C188D17}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{31919BB9-8360-44A8-B41F-893C2C188D17}.Release|Any CPU.Build.0 = Release|Any CPU
+		{74A0A4ED-03E2-44DF-8F00-090B8776956A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{74A0A4ED-03E2-44DF-8F00-090B8776956A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{74A0A4ED-03E2-44DF-8F00-090B8776956A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{74A0A4ED-03E2-44DF-8F00-090B8776956A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{87324F4F-6902-4D8D-BAE7-598A0C53EAEF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{87324F4F-6902-4D8D-BAE7-598A0C53EAEF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{87324F4F-6902-4D8D-BAE7-598A0C53EAEF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{87324F4F-6902-4D8D-BAE7-598A0C53EAEF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
